@@ -49,6 +49,11 @@
 .w-70 {
   width: 70%;
 }
+
+.w-80{
+    width: 80%;
+}
+
 .w-90 {
   width: 90%;
 }
@@ -86,8 +91,60 @@ header {
     padding: 0px 10px;
 }
 
+.top-header a{
+    margin: 0px 30px;
+    text-decoration: none;
+}
+
+.top-header li a:hover {
+    text-decoration: underline;
+}
+
+.btn{
+    background-color: rgba(0,97,255,255);
+    display: inline-block;
+    height: 30px;
+    width: 65px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.bg-lightblue{
+    background-color: rgba(180,208,231,255);
+
+}
+
+.bottom-header{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bottom-header h1{
+    display: inline-block;
+    width: 1000px;
+    height: 50px;
+    line-height: 70px;
+    font-size: 65px;
+    padding-top: 50px;
+}
+
+.bottom-header p{
+    display: inline-block;
+    font-size: 15px;
+    width: 300px;
+    padding-top: 50px;
+}
+
+.bottom-header a{
+    display: block;
+    margin-top: 30px;
+    width: 200px;
+    font-size: 14px;
+    text-decoration: none;
+}
 
 
-
-
-
+.bottom-header a:hover{
+    text-decoration: underline;
+}
