@@ -217,8 +217,8 @@ font-size: 12px;
 
 .mesi p{
     display: table-row;
-    height: 40px;
-    line-height: 20px;
+    height: 10px;
+    line-height: 10px;
     font-size: 10px;
 }
 
