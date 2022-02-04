@@ -10,6 +10,10 @@
     clear: both;
   }
 
+  body{
+      font-family: sans-serif;
+  }
+
   /* utilities */
 
 .container {
@@ -67,8 +71,8 @@
   width: 90%;
 }
 
-.p-10{
-    padding-left: 10px;
+.p-15{
+    padding-left: 15px;
 }
 
 .mb-20{
@@ -77,6 +81,10 @@
 
 .mt-20{
     margin-top: 20px;
+}
+
+.mg-20{
+    margin-right: 20px;
 }
 
 /* content */
@@ -134,7 +142,7 @@ header {
     width: 200px;
     text-align: center;
     line-height: 30px;
-    margin: 25px 10px;
+    margin: 25px 30px 10px 15px;
 
 }
 
@@ -151,10 +159,9 @@ header {
 
 .bottom-header h1{
     display: inline-block;
-    width: 1000px;
     height: 50px;
-    line-height: 70px;
-    font-size: 65px;
+    line-height: 80px;
+    font-size: 75px;
     padding-top: 50px;
 }
 
@@ -214,6 +221,12 @@ padding-top: 30px;
     margin-top: 20px;
 }
 
+.col .top{
+    border-bottom: 2px solid lightgrey;
+    text-align: center;
+    padding-top: 10px;
+}
+
 .pacchetto{
     font-size: 25px;
     line-height: 25px;
@@ -253,7 +266,7 @@ padding-top: 30px;
     display: inline-block;
     width: 45px;
     height: 40px;
-    border-bottom: grey 1px solid;
+    border-bottom: 1px solid lightgrey;
     margin-bottom: 20px;
     margin-left: 10px;
 }
@@ -266,7 +279,64 @@ padding-top: 30px;
     margin-bottom: 25px;
 }
 
+.full{
+    width: 99%;
+    border: 1px solid lightgrey ;
+    margin-top: 40px;
+}
 
+.full .team{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.bottom-box h4{
+    font-size: 20px;
+    padding: 25px 0px 5px 15px;
+}
+
+.bottom-box h5{
+    font-size: 15px;
+    padding: 5px 15px;
+}
+
+.bottom-box p{
+    padding: 10px 0px 30px 15px
+}
+
+.partner{
+    margin-top: 30px;
+}
+
+.partner h4{
+    width: 720px;
+    font-size: 25px;
+    margin-top: 80px;
+    padding-left: 320px;
+}
+
+.partner img{
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 280px;
+}
+
+.partner p{
+    margin-left: 320px;
+    width: 430px;
+    margin-top: 25px;
+}
+
+.chiaro{
+    display: inline-block;
+    margin-left: 320px;
+    border: 1px solid lightgrey;
+    margin-top: 30px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
 /* debug */
 
 .debug .container{
@@ -275,4 +345,12 @@ padding-top: 30px;
 
 .debug .col{
    /* height: 600px;*/
+}
+
+.debug .full{
+  /*  height: 300px;*/
+}
+
+.debug .partner{
+    height: 300px;
 }
