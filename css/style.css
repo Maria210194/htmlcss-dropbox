@@ -46,8 +46,17 @@
 .w-60 {
  width: 60%;
 }
+
+.w-65{
+    width: 65%;
+}
+
 .w-70 {
   width: 70%;
+}
+
+.w-75{
+    width: 75%;
 }
 
 .w-80{
@@ -147,4 +156,75 @@ header {
 
 .bottom-header a:hover{
     text-decoration: underline;
+}
+
+.bottom-header img{
+    margin: 30px 0px;
+}
+
+#annulla{
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.arrow{
+    display: flex;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.piano h2{
+    font-size: 30px;
+    padding-top: 80px;
+}
+
+.piano .fatturazione{
+
+padding-top: 30px;
+}
+
+.plans-table{
+    display: block;
+    border-collapse: collapse;
+    color: black;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.row-table{
+    width: 100%;
+    border: 1px solid #d0d0d3;
+}
+
+.row-table th{
+    width: 300px;
+    padding: 20px 30px;
+}
+
+table td{
+padding: 7px 15px;
+}
+
+table h5{
+font-size: 12px;
+}
+
+.plans {
+    height: 70px;
+    line-height: 70px;
+    font-size: 20px;
+}
+
+.mesi p{
+    display: table-row;
+    height: 40px;
+    line-height: 20px;
+    font-size: 10px;
+}
+
+.utenti p{
+    display: table-row;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
 }
