@@ -87,6 +87,14 @@
     margin-right: 20px;
 }
 
+.auto{
+    margin: auto;
+}
+
+.box-center{
+    margin: 0px 30px;
+}
+
 /* content */
 
 header {
@@ -310,21 +318,19 @@ padding-top: 30px;
 }
 
 .partner h4{
-    width: 720px;
     font-size: 25px;
     line-height: 35px;
     margin-top: 80px;
-    padding-left: 320px;
+    padding-left: 80px;
 }
 
 .partner img{
     width: 100%;
     margin-top: 80px;
-    margin-left: 280px;
 }
 
 .partner p{
-    margin-left: 320px;
+    margin-left: 80px;
     width: 430px;
     margin-top: 25px;
     font-size: 15px;
@@ -333,17 +339,58 @@ padding-top: 30px;
 
 .chiaro{
     display: inline-block;
-    margin-left: 320px;
+    margin-left: 80px;
     border: 1px solid lightgrey;
     margin-top: 30px;
     color: black;
     text-decoration: none;
     padding: 10px;
 }
+
+.row{
+    margin-top: 100px;
+}
+
+.row h2{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.row h3{
+    padding: 15px 0px;
+}
+
+.operazioni{
+    width: 31%;
+    display: inline-block;
+}
+
+.row img{
+    width: 100%;
+    
+}
+
+.row .text{
+    height: 200px;
+}
+
+.row p{
+    width: 95%;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.row .clienti{
+    line-height: 50px;
+    font-size: 35px;
+}
+
+
 /* debug */
 
 .debug .container{
-    height: 550px;
+  /*  height: 550px; */
 }
 
 .debug .col{
@@ -355,5 +402,10 @@ padding-top: 30px;
 }
 
 .debug .partner{
-    height: 300px;
+ /*   height: 300px; */
+}
+
+.debug .operazioni{
+  /*  height: 400px; 
+    border: 2px solid red; */
 }
