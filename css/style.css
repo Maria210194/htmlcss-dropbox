@@ -312,6 +312,7 @@ padding-top: 30px;
 .partner h4{
     width: 720px;
     font-size: 25px;
+    line-height: 35px;
     margin-top: 80px;
     padding-left: 320px;
 }
@@ -326,6 +327,8 @@ padding-top: 30px;
     margin-left: 320px;
     width: 430px;
     margin-top: 25px;
+    font-size: 15px;
+    line-height: 30px;
 }
 
 .chiaro{
