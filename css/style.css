@@ -103,6 +103,13 @@
     margin: 0px 30px;
 }
 
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
 /* content */
 
 header {
@@ -395,11 +402,12 @@ padding-top: 30px;
 }
 
 .maxi{
-
+    border: 2px solid red;
 }
 
 .first{
-
+    border: 1px solid blue;
+    display: inline-block;
 }
 
 .first11{
@@ -413,7 +421,7 @@ padding-top: 30px;
 }
 
 .piccola{
-    width: 28%;
+    width: 30%;
     display: inline-block;
 }
 
@@ -480,18 +488,15 @@ padding-top: 30px;
 
 .debug .maxi{
     height: 300px;
-    border: 2px solid red;
 }
 
 .debug .first{
-    height: 290px; 
-    border: 1px solid blue;
-    display: inline-block;
+    height: 100%; 
 }
 
 .debug .first1{
    height: 50%; 
-    border: 1px solid green;
+   border: 1px solid green;
 }
 
 .debug .first11{
@@ -500,9 +505,9 @@ padding-top: 30px;
 }
 
 .debug .mezzo{
-    height: 290px;
+    height: 100%;
 }
 
 .debug .piccola{
-    height: 290px;
+    height: 100%;
 }
